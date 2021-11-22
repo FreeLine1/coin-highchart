@@ -1,0 +1,58 @@
+.main-container {
+    border: 1px solid black;
+    width: 460px;
+    min-height: 380px;
+    margin-top: 15px;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.dropdown{
+    margin: 15px;
+    width: 290px;
+}
+
+.select-coin {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+.subscribe-btn {
+    margin: 15px;
+    width: 100px;
+    height: 42px;
+}
+
+.market-data {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px 10px 10px 15px;
+    width: 425px;
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+.charting-data {
+    display: flex;
+    flex-direction: column;
+}
+
+h6 {
+    -webkit-animation: blink5 2s linear infinite;
+    animation: blink5 2s linear infinite;
+}
+@-webkit-keyframes h6 {
+    0% { color: rgb(128, 0, 0); }
+    50% { color: rgb(183, 65, 14); }
+    100% { color: rgb(128, 0, 0); }
+}
+@keyframes h6 {
+    0% { color: rgb(128, 0, 0); }
+    50% { color: rgb(183, 65, 14); }
+    100% { color: rgb(128, 0, 0); }
+}
+
+
